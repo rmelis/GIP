@@ -10,7 +10,7 @@ public class XWing extends MovingObject {
 	}
 	
 	private void initializeXWing() {
-		String XWingImg = "C:\\Users\\Kristien\\Documents\\Ruben & Dietger\\Ruben\\Provil ION 6\\Programmeren\\afbeeldingen\\X-Wing.png";
+		String XWingImg = "src\\Images\\X-Wing.png";
 		ImageIcon XWingImgIcon = new ImageIcon(XWingImg);
 		
 		width = XWingImgIcon.getImage().getWidth(null);
