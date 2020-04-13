@@ -11,7 +11,7 @@ public class Shot extends MovingObject {
 	}
 	
 	private void initializeShot(int x, int y) {
-		String shotImg = "C:\\Users\\Kristien\\Documents\\Ruben & Dietger\\Ruben\\Provil ION 6\\Programmeren\\afbeeldingen\\Cannon shot.png";
+		String shotImg = "src\\Images\\bomb.png";
 		ImageIcon shotImgIcon = new ImageIcon(shotImg);
 		setImage(shotImgIcon.getImage());
 		
