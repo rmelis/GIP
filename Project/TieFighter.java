@@ -14,7 +14,7 @@ public class TieFighter extends MovingObject {
 		this.x = x;
 		this.y = y;
 		bomb = new Bomb(x, y);
-		String TieFighterImg = "C:\\Users\\Kristien\\Documents\\Ruben & Dietger\\Ruben\\Provil ION 6\\Programmeren\\afbeeldingen\\Tie fighter.png";
+		String TieFighterImg = "src\\Images\\Tie fighter.png";
 		ImageIcon TieFighterImgIcon = new ImageIcon(TieFighterImg);
 		setImage(TieFighterImgIcon.getImage());
 	}
